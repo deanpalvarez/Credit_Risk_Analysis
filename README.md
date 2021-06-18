@@ -1,10 +1,9 @@
 # Credit_Risk_Analysis
-# Credit_Risk_Analysis
 # Overview
-Here we load in a large dataset of credit applications to Python with 80+ columns of lending criteria in order to build/compare multiple machine learning modules in order to test their accuracy. We determine the "loan_status" column as the most important to determine an individuals credit risk, while factoring in the rest of the columns while building machine learning models to determine someone's ability to be approved.
+Here we load in a large dataset of credit applications to Python, with 80+ columns of lending criteria in order to build/compare multiple machine learning modules to test their accuracy. We determine the "loan_status" column as the most important to determine an individuals credit risk, while factoring in the rest of the columns while building machine learning models to determine someone's ability to be approved.
 
 # Results
-In layman's terms we isolate the loan status column (our 'y' value) as our data to compare against the rest of the data we run through the machine learning models (our 'x' value). Our 'x' data is run through several different machine learning models; oversampling, undersampling, etc. in multiple different manners. this is all compared against the 'y' data and given an accuracy score, classification report, etc. all to determine how accurate our machine learning models are. 
+In layman's terms we isolate the loan status column (our 'y' value) as our data to compare against the rest of the data we run through the machine learning models (our 'x' value). Our 'x' data is run through several different machine learning models; oversampling, undersampling, etc. in multiple different manners. This is all compared against the 'y' data and given an accuracy score, classification report, etc. all to determine how accurate our machine learning models are. 
 
 Our data must first be 'cleaned' and transformed into numerical data, so it can be passed through machine learning algorithms, and allows text to have numerical value. This means literal words in the spreadsheet like "low risk" and "high risk" can be interpreted as 1 or 0, and numerical data such as debt/loan amounts can remain as is. We also get rid of columns we don't need, which can also at the same time further complicate/disrupt our analysis. Part of this process can be shown here:
 ```
